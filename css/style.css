@@ -1,0 +1,162 @@
+/* Header Section */
+header{
+    background-color: white;
+    text-align: center;
+}
+#logo{
+    padding: 30px;
+}
+#sinopsisimg{
+    background-color: #FF6392;
+    transition: all 250ms ease-out;
+    vertical-align: 50px;
+    vertical-align: 50px;
+}
+#sinopsisimg:hover{
+    background-color: #a74462;
+    transition: all 250ms ease-out;
+}
+#charactersimg{
+    background-color: rgb(86, 221, 86);
+    transition: all 250ms ease-out;
+    vertical-align: 50px;
+    vertical-align: 50px;
+}
+#charactersimg:hover{
+    background-color: rgb(63, 151, 63);
+    transition: all 250ms ease-out;
+}
+#demoimg{
+    background-color: rgb(255, 185, 73);
+    transition: all 250ms ease-out;
+    vertical-align: 50px;
+    vertical-align: 50px;
+}
+#demoimg:hover{
+    background-color: rgb(168, 125, 54);
+    transition: all 250ms ease-out;
+}
+#buyimg{
+    background-color: dodgerblue;
+    transition: all 250ms ease-out;
+    vertical-align: 50px;
+
+}
+#buyimg:hover{
+    background-color: rgb(19, 77, 134);
+    transition: all 250ms ease-out;
+}
+
+/* Body Section */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0 0 0 0;
+    background-image: url(img\section\main\background.jpg);
+}
+section{
+    display: block;
+}
+h2{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+div{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul{
+    list-style-type: disc;
+}
+li{
+    display: list-item;
+    list-style: none;
+}
+
+/* Main Section */
+#main{
+    background-image: url(img\section\main\background.jpg);
+    text-align: center;
+}
+#emikomain{
+    padding: 30px 0 25px 150px;
+    background-color: transparent;
+}
+#logomain{
+    float: right;
+    clear: both;
+    padding: 100px 300px 0 0;
+    background-color: transparent;
+}
+
+/* Sinopsis Section */
+#sinopsis{
+    background-color: #FF6392;
+    padding: 30px
+}
+
+#sinopsistext{
+    padding: 50px;
+    background-color: white;
+}
+
+/* Characters Section*/
+#characters{
+    background-color: rgb(86, 221, 86);
+    padding: 30px;
+}
+#characters div{
+    background-color: white;
+    text-align: center;
+}
+#characters ul{
+    display: flex;
+	-webkit-flex-wrap:wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content:center;
+ 	justify-content:center;
+	padding: 30px;
+    text-align: center;
+}
+#characters li{
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: left;
+}
+#characters li p{
+    text-align: left;
+    padding-left: 21px;
+}
+#characters li img{
+    padding: 10px;
+}
+
+/* Demo Section*/
+#demo{
+    background-color: rgb(255, 185, 73);
+    padding: 30px
+}
+
+/* Buy Section*/
+#buy{
+    background-color: white;
+    padding: 30px
+}
+
+/* Footer Section */
+#copyright{
+    background-color: #FF6392;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
