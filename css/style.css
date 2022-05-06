@@ -1,6 +1,5 @@
 /* Header Section */
 header{
-    width: 100%;
     background-color: white;
     text-align: center;
 }
@@ -60,12 +59,12 @@ section{
     display: block;
 }
 h2{
-    width: 100%;
+    width: 1000px;
     height: auto;
     margin: 0 auto;
 }
 div{
-    width: 100%;
+    width: 1000px;
     height: auto;
     margin: 0 auto;
 }
@@ -93,24 +92,25 @@ li{
     text-align: center;
 }
 #emikomain{
-    width: 50%;
+    width: 211;
     padding: 30px 0 25px 150px;
     background-color: transparent;
 }
 #logomain{
-    float: right;
+    width: 30%;
     clear: both;
-    padding: 100px, 300px, 0px, 0px;
     background-color: transparent;
 }
 
 /* Sinopsis Section */
 #sinopsis{
+    width: 100%;
     background-color: #FF6392;
     padding: 30px
 }
 
 #sinopsistext{
+    width: 80%;
     padding: 50px;
     background-color: white;
 }
